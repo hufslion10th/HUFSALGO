@@ -1,71 +1,71 @@
 {
-  "projectName": "HUFSALGO",
-  "projectOwner": "hufslion10th",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "files": [
-    "README.md"
-  ],
-  "imageSize": 100,
-  "commit": true,
-  "commitConvention": "none",
-  "contributors": [
-    {
-      "login": "4923",
-      "name": "YeEun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60145951?v=4",
-      "profile": "https://github.com/4923",
-      "contributions": [
-        "doc",
-        "infra"
-      ]
-    },
-    {
-      "login": "Parkjju",
-      "name": "박경준",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75518683?v=4",
-      "profile": "https://parkjju.github.io/vue-TIL/",
-      "contributions": [
-        "doc",
-        "infra"
-      ]
-    },
-    {
-      "login": "HaJunYoo",
-      "name": "Ha Jun Yoo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58240677?v=4",
-      "profile": "https://linktr.ee/yookie1209",
-      "contributions": [
-        "doc"
-      ]
-    },
-    {
-      "login": "wJJin",
-      "name": "WooJin Jung",
-      "avatar_url": "https://avatars.githubusercontent.com/u/81296203?v=4",
-      "profile": "https://github.com/wJJin",
-      "contributions": [
-        "doc"
-      ]
-    },
-    {
-      "login": "Hellol77",
-      "name": "DongHyeonWon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76903801?v=4",
-      "profile": "https://hellol77.tistory.com/",
-      "contributions": [
-        "doc"
-      ]
-    },
-    {
-      "login": "SeolHuiGwan9478",
-      "name": "HuiGwan Seol",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67581495?v=4",
-      "profile": "https://www.notion.so/ddongdong-e/ddongdong_e-s-Blog-79fb18ffbb3a486dae0605c49dbc49fa",
-      "contributions": [
-        "doc"
-      ]
-    }
-  ],
-  "contributorsPerLine": 4
+    "projectName": "HUFSALGO",
+    "projectOwner": "hufslion10th",
+    "repoType": "github",
+    "repoHost": "https://github.com",
+    "files": [
+        "README.md"
+    ],
+    "imageSize": 100,
+    "commit": true,
+    "commitConvention": "none",
+    "contributors": [
+        {
+            "login": "4923",
+            "name": "YeEun",
+            "avatar_url": "https://avatars.githubusercontent.com/u/60145951?v=4",
+            "profile": "https://github.com/4923",
+            "contributions": [
+                "doc",
+                "infra"
+            ]
+        },
+        {
+            "login": "Parkjju",
+            "name": "박경준",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75518683?v=4",
+            "profile": "https://parkjju.github.io/vue-TIL/",
+            "contributions": [
+                "doc",
+                "infra"
+            ]
+        },
+        {
+            "login": "HaJunYoo",
+            "name": "Ha Jun Yoo",
+            "avatar_url": "https://avatars.githubusercontent.com/u/58240677?v=4",
+            "profile": "https://linktr.ee/yookie1209",
+            "contributions": [
+                "doc"
+            ]
+        },
+        {
+            "login": "wJJin",
+            "name": "WooJin Jung",
+            "avatar_url": "https://avatars.githubusercontent.com/u/81296203?v=4",
+            "profile": "https://github.com/wJJin",
+            "contributions": [
+                "doc"
+            ]
+        },
+        {
+            "login": "Hellol77",
+            "name": "DongHyeonWon",
+            "avatar_url": "https://avatars.githubusercontent.com/u/76903801?v=4",
+            "profile": "https://hellol77.tistory.com/",
+            "contributions": [
+                "doc"
+            ]
+        },
+        {
+            "login": "SeolHuiGwan9478",
+            "name": "HuiGwan Seol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67581495?v=4",
+            "profile": "https://www.notion.so/ddongdong-e/ddongdong_e-s-Blog-79fb18ffbb3a486dae0605c49dbc49fa",
+            "contributions": [
+                "doc"
+            ]
+        }
+    ],
+    "contributorsPerLine": 7
 }
