@@ -56,7 +56,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "SeolHuiGwan9478",
+      "name": "HuiGwan Seol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67581495?v=4",
+      "profile": "https://www.notion.so/ddongdong-e/ddongdong_e-s-Blog-79fb18ffbb3a486dae0605c49dbc49fa",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 4
 }
