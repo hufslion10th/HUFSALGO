@@ -1,79 +1,24 @@
 {
-    "projectName": "HUFSALGO",
-    "projectOwner": "hufslion10th",
-    "repoType": "github",
-    "repoHost": "https://github.com",
-    "files": [
-        "README.md"
-    ],
-    "contributorsPerLine": 4,
-    "imageSize": 100,
-    "commit": true,
-    "contributors": [
-        {
-            "login": "4923",
-            "name": "4923",
-            "avatar_url": "https://avatars.githubusercontent.com/4923",
-            "profile": "https://github.com/4923",
-            "contributions": [
-                "doc",
-                "infra"
-            ]
-        },
-        {
-            "login": "Parkjju",
-            "name": "Parkjju",
-            "avatar_url": "https://avatars.githubusercontent.com/parkjju",
-            "profile": "https://parkjju.github.io/vue-TIL/",
-            "contributions": [
-                "doc",
-                "infra"
-            ]
-        },
-        {
-            "login": "hotsun1508",
-            "name": "hotsun1508",
-            "avatar_url": "https://avatars.githubusercontent.com/hotsun1508",
-            "profile": "https://blog.naver.com/hotsun1508",
-            "contributions": [
-                "doc"
-            ]
-        },
-        {
-            "login": "Hellol77",
-            "name": "Hellol77",
-            "avatar_url": "https://avatars.githubusercontent.com/Hellol77",
-            "profile": "",
-            "contributions": [
-                "doc"
-            ]
-        },
-        {
-            "login": "wJJin",
-            "name": "wJJin",
-            "avatar_url": "https://avatars.githubusercontent.com/wJJin",
-            "profile": "",
-            "contributions": [
-                "doc"
-            ]
-        },
-        {
-            "login": "HaJunYoo",
-            "name": "HaJunYoo",
-            "avatar_url": "https://avatars.githubusercontent.com/HaJunYoo",
-            "profile": "",
-            "contributions": [
-                "doc"
-            ]
-        },
-        {
-            "login": "SeolHuiGwan9478",
-            "name": "SeolHuiGwan9478",
-            "avatar_url": "https://avatars.githubusercontent.com/SeolHuiGwan9478",
-            "profile": "",
-            "contributions": [
-                "doc"
-            ]
-        }
-    ]
+  "projectName": "HUFSALGO",
+  "projectOwner": "hufslion10th",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "Parkjju",
+      "name": "박경준",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75518683?v=4",
+      "profile": "https://parkjju.github.io/vue-TIL/",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
 }

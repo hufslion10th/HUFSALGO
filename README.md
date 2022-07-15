@@ -1,4 +1,7 @@
 <div align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <img src="https://user-images.githubusercontent.com/60145951/158914541-46bae0c2-28f7-46d7-80f4-6a7cb3e15579.png" width=50><br>
 
@@ -26,3 +29,23 @@ echo '{ "path": "cz-emoji-conventional" }' > ~/.czrc
 ```
 
 3. 파일 변경사항 적용 후 `git commit -m "메세지"`가 아닌 `git-cz` 명령어를 실행하여 커밋을 올립니다.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://parkjju.github.io/vue-TIL/"><img src="https://avatars.githubusercontent.com/u/75518683?v=4?s=100" width="100px;" alt=""/><br /><sub><b>박경준</b></sub></a><br /><a href="https://github.com/hufslion10th/HUFSALGO/commits?author=Parkjju" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
