@@ -1,6 +1,6 @@
 <div align="center">
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <img src="https://user-images.githubusercontent.com/60145951/158914541-46bae0c2-28f7-46d7-80f4-6a7cb3e15579.png" width=50><br>
@@ -41,6 +41,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://linktr.ee/4923py"><img src="https://avatars.githubusercontent.com/u/60145951?v=4?s=100" width="100px;" alt=""/><br /><sub><b>YeEun</b></sub></a><br /><a href="https://github.com/hufslion10th/HUFSALGO/commits?author=4923" title="Documentation">📖</a> <a href="#infra-4923" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     <td align="center"><a href="https://parkjju.github.io/vue-TIL/"><img src="https://avatars.githubusercontent.com/u/75518683?v=4?s=100" width="100px;" alt=""/><br /><sub><b>박경준</b></sub></a><br /><a href="https://github.com/hufslion10th/HUFSALGO/commits?author=Parkjju" title="Documentation">📖</a> <a href="#infra-Parkjju" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://github.com/hotsun1508"><img src="https://avatars.githubusercontent.com/u/60880176?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sun Ah Min</b></sub></a><br /><a href="https://github.com/hufslion10th/HUFSALGO/commits?author=hotsun1508" title="Documentation">📖</a></td>
   </tr>
 </table>
 
