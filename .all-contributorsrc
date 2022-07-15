@@ -6,14 +6,14 @@
     "files": [
         "README.md"
     ],
-    "contributorsPerLine": 4,
     "imageSize": 100,
     "commit": true,
+    "commitConvention": "none",
     "contributors": [
         {
             "login": "4923",
-            "name": "4923",
-            "avatar_url": "https://avatars.githubusercontent.com/4923",
+            "name": "YeEun",
+            "avatar_url": "https://avatars.githubusercontent.com/u/60145951?v=4",
             "profile": "https://github.com/4923",
             "contributions": [
                 "doc",
@@ -22,8 +22,8 @@
         },
         {
             "login": "Parkjju",
-            "name": "Parkjju",
-            "avatar_url": "https://avatars.githubusercontent.com/parkjju",
+            "name": "박경준",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75518683?v=4",
             "profile": "https://parkjju.github.io/vue-TIL/",
             "contributions": [
                 "doc",
@@ -31,49 +31,41 @@
             ]
         },
         {
-            "login": "hotsun1508",
-            "name": "hotsun1508",
-            "avatar_url": "https://avatars.githubusercontent.com/hotsun1508",
-            "profile": "https://blog.naver.com/hotsun1508",
-            "contributions": [
-                "doc"
-            ]
-        },
-        {
-            "login": "Hellol77",
-            "name": "Hellol77",
-            "avatar_url": "https://avatars.githubusercontent.com/Hellol77",
-            "profile": "",
+            "login": "HaJunYoo",
+            "name": "Ha Jun Yoo",
+            "avatar_url": "https://avatars.githubusercontent.com/u/58240677?v=4",
+            "profile": "https://linktr.ee/yookie1209",
             "contributions": [
                 "doc"
             ]
         },
         {
             "login": "wJJin",
-            "name": "wJJin",
-            "avatar_url": "https://avatars.githubusercontent.com/wJJin",
-            "profile": "",
+            "name": "WooJin Jung",
+            "avatar_url": "https://avatars.githubusercontent.com/u/81296203?v=4",
+            "profile": "https://github.com/wJJin",
             "contributions": [
                 "doc"
             ]
         },
         {
-            "login": "HaJunYoo",
-            "name": "HaJunYoo",
-            "avatar_url": "https://avatars.githubusercontent.com/HaJunYoo",
-            "profile": "",
+            "login": "Hellol77",
+            "name": "DongHyeonWon",
+            "avatar_url": "https://avatars.githubusercontent.com/u/76903801?v=4",
+            "profile": "https://hellol77.tistory.com/",
             "contributions": [
                 "doc"
             ]
         },
         {
             "login": "SeolHuiGwan9478",
-            "name": "SeolHuiGwan9478",
-            "avatar_url": "https://avatars.githubusercontent.com/SeolHuiGwan9478",
-            "profile": "",
+            "name": "HuiGwan Seol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67581495?v=4",
+            "profile": "https://www.notion.so/ddongdong-e/ddongdong_e-s-Blog-79fb18ffbb3a486dae0605c49dbc49fa",
             "contributions": [
                 "doc"
             ]
         }
-    ]
+    ],
+    "contributorsPerLine": 7
 }
