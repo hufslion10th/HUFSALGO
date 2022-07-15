@@ -1,7 +1,5 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <div align="center">
@@ -47,6 +45,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/wJJin"><img src="https://avatars.githubusercontent.com/u/81296203?v=4?s=100" width="100px;" alt=""/><br /><sub><b>WooJin Jung</b></sub></a><br /><a href="https://github.com/hufslion10th/HUFSALGO/commits?author=wJJin" title="Documentation">📖</a></td>
     <td align="center"><a href="https://hellol77.tistory.com/"><img src="https://avatars.githubusercontent.com/u/76903801?v=4?s=100" width="100px;" alt=""/><br /><sub><b>DongHyeonWon</b></sub></a><br /><a href="https://github.com/hufslion10th/HUFSALGO/commits?author=Hellol77" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.notion.so/ddongdong-e/ddongdong_e-s-Blog-79fb18ffbb3a486dae0605c49dbc49fa"><img src="https://avatars.githubusercontent.com/u/67581495?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HuiGwan Seol</b></sub></a><br /><a href="https://github.com/hufslion10th/HUFSALGO/commits?author=SeolHuiGwan9478" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/hotsun1508"><img src="https://avatars.githubusercontent.com/u/60880176?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sun Ah Min</b></sub></a><br /><a href="https://github.com/hufslion10th/HUFSALGO/commits?author=hotsun1508" title="Documentation">📖</a></td>
   </tr>
 </table>
 
