@@ -11,19 +11,20 @@
   "commitConvention": "none",
   "contributors": [
     {
-      "login": "Parkjju",
-      "name": "박경준",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75518683?v=4",
-      "profile": "https://parkjju.github.io/vue-TIL/",
-      "contributions": [
-        "doc"
-      ]
-    },
-    {
       "login": "4923",
       "name": "YeEun",
       "avatar_url": "https://avatars.githubusercontent.com/u/60145951?v=4",
       "profile": "https://linktr.ee/4923py",
+      "contributions": [
+        "doc",
+        "infra"
+      ]
+    },
+    {
+      "login": "Parkjju",
+      "name": "박경준",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75518683?v=4",
+      "profile": "https://parkjju.github.io/vue-TIL/",
       "contributions": [
         "doc",
         "infra"

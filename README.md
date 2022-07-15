@@ -39,8 +39,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://parkjju.github.io/vue-TIL/"><img src="https://avatars.githubusercontent.com/u/75518683?v=4?s=100" width="100px;" alt=""/><br /><sub><b>박경준</b></sub></a><br /><a href="https://github.com/hufslion10th/HUFSALGO/commits?author=Parkjju" title="Documentation">📖</a></td>
     <td align="center"><a href="https://linktr.ee/4923py"><img src="https://avatars.githubusercontent.com/u/60145951?v=4?s=100" width="100px;" alt=""/><br /><sub><b>YeEun</b></sub></a><br /><a href="https://github.com/hufslion10th/HUFSALGO/commits?author=4923" title="Documentation">📖</a> <a href="#infra-4923" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://parkjju.github.io/vue-TIL/"><img src="https://avatars.githubusercontent.com/u/75518683?v=4?s=100" width="100px;" alt=""/><br /><sub><b>박경준</b></sub></a><br /><a href="https://github.com/hufslion10th/HUFSALGO/commits?author=Parkjju" title="Documentation">📖</a> <a href="#infra-Parkjju" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
   </tr>
 </table>
 
