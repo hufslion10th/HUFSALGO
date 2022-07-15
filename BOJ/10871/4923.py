@@ -13,11 +13,13 @@ https://www.acmicpc.net/problem/10871
 X보다 작은 수를 입력받은 순서대로 공백으로 구분해 출력한다. X보다 작은 수는 적어도 하나 존재한다.
 """
 
+import sys
+
 # INPUT
 n, x = map(int, input().split())
 li = [int(e) for e in input().split()]
 
 # OUTPUT
 for i in range(0, n):
-    if li[i] < x:
-        print(li[i], end=" ")
+    if int(li[i]) < x:
+        sys.stdout.write(str(li[i]) + " ")
