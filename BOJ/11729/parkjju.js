@@ -26,20 +26,28 @@ rl.on('line', (line) => {
 });
 
 const hanoi = (start, mid, end, boardCount) => {
-    // 옮길 블록이 없으면 재귀 호출 종료.
-    if (boardCount === 0) {
-        return;
-    }
+    let answer = [];
+    const helper = (start, mid, end, boardCount) => {
+        // 옮길 블록이 없으면 재귀 호출 종료.
+        if (boardCount === 0) {
+            return;
+        }
 
-    // start에서 mid까지 end를 거쳐 옮기는데
-    // 맨 밑바닥 원판은 옮기지 않는다.
-    hanoi(start, end, mid, boardCount - 1);
+        // start에서 mid까지 end를 거쳐 옮기는데
+        // 맨 밑바닥 원판은 옮기지 않는다.
+        helper(start, end, mid, boardCount - 1);
 
-    // 맨 밑바닥 원판을 옮긴다.
-    console.log(start + 1, end + 1);
+        // 맨 밑바닥 원판을 옮긴다.
+        answer.push(`${start + 1} ${end + 1}`);
 
-    // mid에서 대기중인 N-1개의 원판을
-    // start를 거쳐
-    // end로 옮긴다.
-    hanoi(mid, start, end, boardCount - 1);
+        // mid에서 대기중인 N-1개의 원판을
+        // start를 거쳐
+        // end로 옮긴다.
+        helper(mid, start, end, boardCount - 1);
+    };
+
+    helper(start, mid, end, boardCount);
+
+    console.log(answer.length);
+    console.log(answer.join('\n'));
 };
