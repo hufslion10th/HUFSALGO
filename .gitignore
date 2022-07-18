@@ -321,6 +321,7 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
 .idea/**/azureSettings.xml
 
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -365,6 +366,7 @@ htmlcov/
 .nox/
 .coverage
 .coverage.*
+
 nosetests.xml
 coverage.xml
 *.cover
@@ -378,6 +380,7 @@ cover/
 *.pot
 
 # Django stuff:
+
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
