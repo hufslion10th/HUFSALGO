@@ -28,33 +28,26 @@ import sys
 N = int(sys.stdin.readline().strip())   # 관찰 횟수
 
 # 선언: 인덱스가 소의 번호다. O(1)으로 접근할 수 있으며 초기값은 0이다.
-log = [0 for _ in range(1, 11)]  # 소의 번호와 위치를 연산한 결과
-result = [0 for _ in range(1, 11)]    # 길을 건넌 횟수를 기록하는 리스트
-
-print(log)
-print(result)
+movement_log = [0 for _ in range(1, 11)]  # 소의 번호와 위치를 연산한 결과
+movement_result = [0 for _ in range(1, 11)]    # 길을 건넌 횟수를 기록하는 리스트
 
 # -- 2. 계산 -- #
 # 관찰 결과를 입력받으며 위치를 조정
 for _ in range(N):
-    number, position = map(int, sys.stdin.readline().strip().split())
+    cow_number, current_position = map(int, sys.stdin.readline().strip().split())
     
     # 합이 0이 되도록 길의 왼쪽과 오른쪽의 절댓값을 같게 조정한다.
-    if position == 0:
-        position = -1
+    if current_position == 0: current_position = -1
     
     # 소의 번호가 10까지이므로 key 값으로 삼는다.
-    log[number] += position
+    movement_log[cow_number] += current_position
 
-    # log[number] 가 0이 되면 1에서 -1로 이동하거나 -1에서 1로 이동한 것이므로 길을 건넜다고 할 수 있다.
-    if log[number] == 0:
-        result[number] += 1
-
-print(log)
-print(result)
+    # movement_log[cow_number] 가 0이 되면 1에서 -1로 이동하거나 -1에서 1로 이동한 것이므로 길을 건넜다고 할 수 있다.
+    if movement_log[cow_number] == 0:
+        movement_result[cow_number] += 1
 
 # -- 3. 결과 출력 -- #
-print(sum(result))
+print(sum(movement_result))
 
 
 
