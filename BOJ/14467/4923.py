@@ -36,31 +36,19 @@ movement_result = [0 for _ in range(11)]    # 길을 건넌 횟수를 기록하�
 # -- 2. 계산 -- #
 # 관찰 결과를 입력받으며 위치를 조정
 
-# print(f"movement_log: {movement_log}, movement_result: {movement_result}")      # 확인용
-
 for i in range(N):
     cow_number, current_position = map(int, sys.stdin.readline().strip().split())
 
-    # print()     # 확인용
-    # print(i)    # 확인용
-    
-    # print(f"cow_number: {cow_number}, current_position: {current_position}")    # 확인용
-
     # 합이 0이 되도록 길의 왼쪽과 오른쪽의 절댓값을 같게 조정한다.
-    if current_position == 0: current_position = -1
+    if current_position == 0: 
+        current_position = -1
     
-    # 소의 번호가 10까지이므로 key 값으로 삼는다.
-    movement_log[cow_number] += current_position
+    if movement_log[cow_number] != current_position:      # 반례: 소가 같은 위치에 계속 있을 때
+        movement_log[cow_number] += current_position
 
     # movement_log[cow_number] 가 0이 되면 1에서 -1로 이동하거나 -1에서 1로 이동한 것이므로 길을 건넜다고 할 수 있다.
     if movement_log[cow_number] == 0:
         movement_result[cow_number] += 1
-
-    # print(f"movement_log: {movement_log}, movement_result: {movement_result}")      # 확인용
-
-# print("\n최종")     # 확인용
-# print(f"movement_log: {movement_log}, movement_result: {movement_result}")      # 확인용
-
 
 # -- 3. 결과 출력 -- #
 print(sum(movement_result))
