@@ -28,14 +28,24 @@ import sys
 N = int(sys.stdin.readline().strip())   # 관찰 횟수
 
 # 선언: 인덱스가 소의 번호다. O(1)으로 접근할 수 있으며 초기값은 0이다.
-movement_log = [0 for _ in range(1, 11)]  # 소의 번호와 위치를 연산한 결과
-movement_result = [0 for _ in range(1, 11)]    # 길을 건넌 횟수를 기록하는 리스트
+
+# 일단 for _ 으로 둔 이상 range 가 1, 11 이든 0, 10 이든 상관이 없다. 10자리만 나오고 그 index는 전부 같기 때문. 차라리 0, 11로 하는게 낫다.
+movement_log = [0 for _ in range(11)]  # 소의 번호와 위치를 연산한 결과
+movement_result = [0 for _ in range(11)]    # 길을 건넌 횟수를 기록하는 리스트
 
 # -- 2. 계산 -- #
 # 관찰 결과를 입력받으며 위치를 조정
-for _ in range(N):
+
+# print(f"movement_log: {movement_log}, movement_result: {movement_result}")      # 확인용
+
+for i in range(N):
     cow_number, current_position = map(int, sys.stdin.readline().strip().split())
+
+    # print()     # 확인용
+    # print(i)    # 확인용
     
+    # print(f"cow_number: {cow_number}, current_position: {current_position}")    # 확인용
+
     # 합이 0이 되도록 길의 왼쪽과 오른쪽의 절댓값을 같게 조정한다.
     if current_position == 0: current_position = -1
     
@@ -45,6 +55,12 @@ for _ in range(N):
     # movement_log[cow_number] 가 0이 되면 1에서 -1로 이동하거나 -1에서 1로 이동한 것이므로 길을 건넜다고 할 수 있다.
     if movement_log[cow_number] == 0:
         movement_result[cow_number] += 1
+
+    # print(f"movement_log: {movement_log}, movement_result: {movement_result}")      # 확인용
+
+# print("\n최종")     # 확인용
+# print(f"movement_log: {movement_log}, movement_result: {movement_result}")      # 확인용
+
 
 # -- 3. 결과 출력 -- #
 print(sum(movement_result))
