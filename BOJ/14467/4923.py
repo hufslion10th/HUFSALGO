@@ -27,15 +27,13 @@ import sys
 # 여러 줄에 걸쳐 입력을 받으므로 input 보다 readlines() 를 사용한다.
 N = int(sys.stdin.readline().strip())   # 관찰 횟수
 
-# 선언: 인덱스가 소의 번호다. O(1)으로 접근할 수 있으며 초기값은 0이다.
-
+# 선언: 인덱스가 소의 번호다. O(1)으로 접근할 수 있으며 초기값은 -1이다.
 # 일단 for _ 으로 둔 이상 range 가 1, 11 이든 0, 10 이든 상관이 없다. 10자리만 나오고 그 index는 전부 같기 때문. 차라리 0, 11로 하는게 낫다.
 movement_log = [-1 for _ in range(11)]  # 소의 번호와 위치를 연산한 결과
 movement_result = [0 for _ in range(11)]    # 길을 건넌 횟수를 기록하는 리스트
 
 # -- 2. 계산 -- #
 # 관찰 결과를 입력받으며 위치를 조정
-
 for i in range(N):
     cow_number, current_position = map(int, sys.stdin.readline().strip().split())
     
@@ -48,5 +46,5 @@ for i in range(N):
 print(sum(movement_result))
 
 
-
+# 최종 시간복잡도 : O(N)
 
