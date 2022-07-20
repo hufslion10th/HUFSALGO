@@ -5,9 +5,8 @@ N,K = map(int,input().split())
 # for i in range(N):
 #     x=input()
 #     y=x[4:-4]
-#     A.append(x) 
-
-A=[sys.stdin.readline().rstrip()[4:-4] for _ in range(N)] # 시간 초과로 입력을 달리 해봤습니다.
+#     A.append(x)
+A=[sys.stdin.readline().rstrip()[4:-4] for _ in range(N)] # 시간초과가 나서 
 
 
 answer=0
@@ -17,7 +16,7 @@ remain = set(chr(i) for i in range(97, 123)) - already # 처음 무조건 배워
 # chr() 함수는 정수를 인자로 받고 해당 정수에 해당하는 유니코드 문자를 반환하는 함수입니다.
 # ord() 함수는 문자를 인자로 받고 해당 문자에 해당하는 유니코드 정수를 반환합니다.
 # 97부터 'a' 입니다. ord('a')=97  chr(97)='a' 입니다.
-def a(A,learn):
+def a(A,learn): # 처음에는 함수코드를 사용 안하고 global코드를 이용했습니다. 하지만 시간초과로 함수코드로 옮겨봤습니다.
     c=0
     for word in A:
         flag=1 # flag를 잡아줍니다.
@@ -47,4 +46,5 @@ if K>=5:
     print(answer)       
 else:
     print(0)
-    
+
+
